@@ -138,22 +138,5 @@ python -m streamlit run dashboard.py
 
 ---
 
-## Arquivo `.gitignore` Recomendado
-
-Antes de subir seu projeto para o GitHub, crie um arquivo chamado `.gitignore` na pasta do projeto com o conteúdo abaixo para evitar subir suas chaves ou fotos de teste pessoais por engano:
-
-```gitignore
-.env
-.aws/
-__pycache__/
-capturas_historico/
-ultima_captura.jpg
-minha_foto.jpeg
-status.json
-historico.json
-```
-
----
-
 **Kayke Malaquias Gregorio - 15651561** — Projeto prático de Sensores Inteligentes (IoT com Inteligência Artificial em Nuvem).
 `
