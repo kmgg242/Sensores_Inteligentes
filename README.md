@@ -22,7 +22,7 @@ Ao contrário de câmeras convencionais que apenas gravam continuamente, o siste
 
 | Montagem Física (ESP32 + Sensor PIR HC-SR501) |
 | :---: |
-| ![Hardware ESP32](docs/foto_circuito_esp32.jpg) |
+| ![Hardware ESP32](docs/foto_circuito_esp32.jpeg) |
 
 ---
 
