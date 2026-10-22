@@ -1,4 +1,4 @@
-# 🛡️ Sentinela IoT — Monitoramento Perimetral com ESP32 e AWS Rekognition
+# Sentinela IoT — Monitoramento Perimetral com ESP32 e AWS Rekognition
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-C%2B%2B-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
@@ -12,7 +12,7 @@ Ao contrário de câmeras convencionais que apenas gravam continuamente, o siste
 
 ---
 
-## 📸 Demonstração Visual do Projeto
+## Demonstração Visual do Projeto
 
 > **Dica para o seu GitHub:** Crie uma pasta chamada `docs/` no seu repositório, salve os prints do seu sistema funcionando e substitua os caminhos abaixo!
 
@@ -26,7 +26,7 @@ Ao contrário de câmeras convencionais que apenas gravam continuamente, o siste
 
 ---
 
-## 🏗️ Arquitetura e Fluxo de Decisão
+## Arquitetura e Fluxo de Decisão
 
 O GitHub renderiza automaticamente o fluxograma abaixo mostrando como os 4 módulos do projeto conversam entre si:
 
@@ -56,7 +56,7 @@ flowchart LR
 
 ---
 
-## 🧠 Inteligência em 3 Estágios (Por que usar 3 APIs da AWS?)
+## Inteligência em 3 Estágios (Por que usar 3 APIs da AWS?)
 
 1. **Estágio 1 — Detecção de Presença Humana (`DetectLabels`):**
    Analisa a cena completa antes de procurar rostos. Se um invasor entrar de costas, de capuz ou longe da câmera, a AWS identifica a classe `Person` / `Human` e aciona o **Alerta Crítico de Intruso (Rosto Oculto)**. Se o sensor PIR disparar sem humanos na imagem, classifica como **Alarme Falso**.
@@ -67,7 +67,7 @@ flowchart LR
 
 ---
 
-## 🔌 Esquema de Ligação do Hardware (ESP32 + HC-SR501)
+## Esquema de Ligação do Hardware (ESP32 + HC-SR501)
 
 | Pino do Sensor PIR (HC-SR501) | Pino no ESP32 | Função |
 | :--- | :--- | :--- |
@@ -79,7 +79,7 @@ flowchart LR
 
 ---
 
-## 📂 Estrutura de Arquivos do Repositório
+## Estrutura de Arquivos do Repositório
 
 ```text
 📦 sentinela-iot-aws
@@ -95,7 +95,7 @@ flowchart LR
 
 ---
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 ### 1. Pré-requisitos e Instalação
 Clone o repositório e instale as dependências no seu ambiente Python:
@@ -140,7 +140,7 @@ python -m streamlit run dashboard.py
 
 ---
 
-## 🛡️ Arquivo `.gitignore` Recomendado
+## Arquivo `.gitignore` Recomendado
 
 Antes de subir seu projeto para o GitHub, crie um arquivo chamado `.gitignore` na pasta do projeto com o conteúdo abaixo para evitar subir suas chaves ou fotos de teste pessoais por engano:
 
