@@ -28,8 +28,6 @@ Ao contrário de câmeras convencionais que apenas gravam continuamente, o siste
 
 ## Arquitetura e Fluxo de Decisão
 
-O GitHub renderiza automaticamente o fluxograma abaixo mostrando como os 4 módulos do projeto conversam entre si:
-
 ```mermaid
 flowchart LR
     subgraph Hardware ["1. Borda IoT (ESP32)"]
@@ -157,7 +155,5 @@ historico.json
 
 ---
 
-## 👨‍💻 Autor
-
-Desenvolvido por **Kayke Gregório** — Projeto prático de Sensores Inteligentes e IoT com Inteligência Artificial em Nuvem.
+**Kayke Malaquias Gregorio - 15651561** — Projeto prático de Sensores Inteligentes (IoT com Inteligência Artificial em Nuvem).
 `
