@@ -14,8 +14,6 @@ Ao contrário de câmeras convencionais que apenas gravam continuamente, o siste
 
 ## Demonstração Visual do Projeto
 
-> **Dica para o seu GitHub:** Crie uma pasta chamada `docs/` no seu repositório, salve os prints do seu sistema funcionando e substitua os caminhos abaixo!
-
 | Painel em Estado Seguro (Autorizado) | Alerta Crítico (Intruso Detectado) |
 | :---: | :---: |
 | ![Acesso Autorizado](docs/print_autorizado.png) | ![Alerta de Intruso](docs/print_intruso.png) |
