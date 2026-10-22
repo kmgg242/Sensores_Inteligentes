@@ -1,0 +1,8 @@
+.env
+.aws/
+__pycache__/
+capturas_historico/
+ultima_captura.jpg
+minha_foto.jpeg
+status.json
+historico.json
